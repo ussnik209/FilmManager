@@ -1,8 +1,10 @@
 # Requirements Document
 ## 1 Introduction  
 ### 1.1 Purpose
-This document describes the functional and non-functional requirements for the Dekstop application "Film Manager".
-### 1.2 Business requirements
+This document describes the functional and non-functional  Initial data for the Dekstop application "Film Manager".
+### 1.2.1 Initial data
+
+### 1.2.2 Business requirements
 
 ### 1.3 Analogs
 
@@ -30,6 +32,3 @@ This document describes the functional and non-functional requirements for the D
 
 
 #### 3.2.2 External interfaces
-
-
-## 4.Analogues
