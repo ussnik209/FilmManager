@@ -16,7 +16,7 @@ Almost everyone like to watch films. We have a lot of web services to find and w
 [The main windows](https://github.com/ussnik209/FilmManager/blob/master/Mockups/Main.png) show top of your favorite, recently viewed and castom lists.
 [Favorite](https://github.com/ussnik209/FilmManager/blob/master/Mockups/Favorite.png) show list with favorite films.
 [Recently viewed](https://github.com/ussnik209/FilmManager/blob/master/Mockups/Recently%20viewed.png) show list with recently viewed films.
-[All movies](https://github.com/ussnik209/FilmManager/blob/master/Mockups/All%20movies.png) show list with all movies.
+[All movies](https://github.com/ussnik209/FilmManager/blob/master/Mockups/All%20movies.png) show list with all your movies.
 ### 2.3 User Characteristics
 The target audience is people who like films and want comfortable application to manipulate catalog of their favorite films. 
 Minimum required skills - skill to use Windiws 10.
