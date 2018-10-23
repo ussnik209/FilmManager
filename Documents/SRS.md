@@ -14,13 +14,9 @@ Almost everyone like to watch films. We have a lot of web services to find and w
 - capability to create custom play-lists.
 ### 2.2 User Interfaces
 
-
 ### 2.3 User Characteristics
 The target audience is people who like films and want comfortable application to manipulate catalog of their favorite films. 
 Minimum required skills - skill to use Windiws 10.
-### 2.4 Assumptions and Dependencies
-
-
 ## 3 System Requirements
 To use this application you need simple personal computer with Windows.
 ### 3.1 Functional Requirements
@@ -35,4 +31,3 @@ To use this application you need simple personal computer with Windows.
 3. New versions of the application should extend the old functionality
 #### 3.2.2 Restrictions
 Product created for the Windows.
-
