@@ -13,7 +13,10 @@ Almost everyone like to watch films. We have a lot of web services to find and w
 - capability to watch recently viewed movies.
 - capability to create custom play-lists.
 ### 2.2 User Interfaces
-
+[The main windows](https://github.com/ussnik209/FilmManager/blob/master/Mockups/Main.png)
+[Favorite](https://github.com/ussnik209/FilmManager/blob/master/Mockups/Favorite.png)
+[All movies](https://github.com/ussnik209/FilmManager/blob/master/Mockups/All%20movies.png)
+[Recently viewed](https://github.com/ussnik209/FilmManager/blob/master/Mockups/Recently%20viewed.png)
 ### 2.3 User Characteristics
 The target audience is people who like films and want comfortable application to manipulate catalog of their favorite films. 
 Minimum required skills - skill to use Windiws 10.
