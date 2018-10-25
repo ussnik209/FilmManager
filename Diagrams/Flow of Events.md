@@ -1,5 +1,5 @@
-## FilmManager
+# FilmManager
 This is application to manage movie catalog for Windows.
 
-## Content
+# Content
 [Requirements Document](https://github.com/ussnik209/FilmManager/blob/master/Documents/SRS.md)
