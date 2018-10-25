@@ -1,5 +1,13 @@
-# FilmManager
-This is application to manage movie catalog for Windows.
+# 1. Актеры
+1. Пользователь
 
-# Content
-[Requirements Document](https://github.com/ussnik209/FilmManager/blob/master/Documents/SRS.md)
+# 2. Варинаты использования
+## 1. Добавить фильм в библиотеку приложениея.
+
+## 2. Отметить фильм как любимый.
+
+## 3. Создать плейлист.
+
+## 4. Добавить фильм в плейлист.
+
+## 5. Запустить фильм.
