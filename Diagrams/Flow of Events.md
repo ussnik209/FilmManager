@@ -8,48 +8,73 @@
 |:--|:--|
 | User | Person using the app |
 
-# 2. Use case
-## 1. Add film to application's library.
-Description: Вариант "Добавить фильм в библиотеку приложениея" позволяет добавлять фильм, хранящийся на устройстве, в библиотеку приложения.
-Основной поток событий:
-1. Вариант использования начинается, когда пользователь нажимамает кнопку "Add movie".
-2. Пользователь вводит путь к фильму.
-3. Приложение проверяет сужествует ли файл. Если файла по такому пути нет, то выполняется альтернативный поток событий А1.
-4. Приложение проверяет, подходит ли расширение файла. Если расширение не подходит, то выполняется альтернативный поток А2.
-5. Приложение добавляет фильм в свою библиотеку.
-6. Вариант использования завершается.
+### 2. Use cases
+#### 2.1 Add film to application's library.
+##### Activity
+![Activity](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Activity/Add%20film%20to%20application's%20library.png)
+##### Secuence
+![Secuence](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Secuence%20diagrams/Add%20film%20to%20application's%20library%20sequence%20diagram.png)
 
-Альтернативный поток событий A1:
-1. Выводит сообщение об ошибке с просьбой ввести новый путь.
-2. Переход к пунтку 2 основного потоку событий.
+Description: The case "Add movie to application library" allows you to add a movie stored on the device to the application library.
 
-Альтернативный поток А2:
-1. Выводит сообщение об ошибке.
-2. Переход к пунтку 6 основного потока событий.
-## 2. Отметить фильм как любимый.
-Описание: Вариант "Отметить фильм как любимый" позволяет отметить фильм, как понравившийся, для последующего доступа к нему через список "Favorite".
-Основной поток событий:
-1. Вариант задания начинается, когда пользователь нажимает на кнопку "Like".
-2. Приложение добавляет фильм в список "Favorite".
-3. Вариант использования завершается.
-## 3. Создать плейлист.
-Описание: Вариант "Создать плейлист" позволяет создать новый плейлист фильмов.
-1. Вариант использования начинается, когда пользователь нажимает кнопку "Create list".
-2. Пользователь вводит нозвание плейлиста.
-3. Пользователь добавляет фильмы из библиотеки приложения в плейлист.
-4. Приложение создает плейлист с указанным названием и заданным набором фильмов.
-5. Вариант использования завершается.
-## 4. Добавить фильм в плейлист.
-Описание: Вариант "Добавить фильм в плейлист" позволяет добавить фильм из библиотеки приложения в уже созданный плейлист.
-Основной поток событий: 
-1. Вариант использования начинается, когда пользователь нажимает кнопку "Add film to the list".
-2. Приложение открывает окно со списком фильмов библиотеки приложения.
-3. Пользователь выбирает фильм из библиотеки приложения.
-4. Вариант использования завершается.
-## 5. Запустить фильм.
-Описание: Вариант "Запустить фильм" позволяет начать воспроизведение фильма.
-Основной поток событий: 
-1. Вариант событий начинается, когда пользователь нажимает кнопку "Play".
-2. Приложение начинает воспроизведения фильма.
-3. Пользователь нажимает кнопку "Close". 
-4. Вариант использования заканчивается.
+The main flow of events:
+1. It's availible when user open "All movies" window.
+2. Then user press on "Add movie" and enter path of the film.
+3. The application checks if the file is alive. If there is no file along this path, then an alternate stream of A1 events is executed.
+4. The application checks if the file extension has correct format. If the extension does not right, then an alternate A2 stream is executed.
+5. The application adds a movie to your library.
+
+Alternate Event Flow A1:
+1. Displays an error message asking you to enter a new path.
+2. Go to step 2 of the main flow of events.
+
+Alternate Flow A2:
+1. Displays an error message.
+2. Go to step 6 of the main flow of events.
+
+#### 2.2 Add film to the list
+##### Activity
+![Activity](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Activity/Add%20film%20to%20the%20list.png)
+##### Secuence
+![Secuence](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Secuence%20diagrams/Add%20film%20to%20the%20list%20secuance%20diagram.png)
+
+Description: The case "Mark the movie as favorite" allows you to mark the movie as your favorite, for later access to it through the "Favorite" list.
+
+The main flow of events:
+1. It's avalible when user open "Movies list" window.
+2. Then user press on "Add Film".
+3. User choose film to add.
+#### 2.3 Create list
+##### Activity
+![Activity](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Activity/Create%20list.png)
+##### Secuence
+![Secuence](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Secuence%20diagrams/Create%20list%20sequence%20diagam.png)
+
+Description: The case "Create Playlist" allows you to create a new list of movies.
+
+The main flow of events:
+1. It's avalible when user open "Movies list" window.
+2. Then user should press on "Create list".
+3. User will write name of list and choose films to add.
+#### 2.4 Mark film as favorite
+##### Activity
+![Activity](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Activity/Mark%20film%20as%20favorite.png)
+##### Secuence
+![Secuence](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Secuence%20diagrams/Mark%20film%20as%20favorite%20sequence%20diagram.png)
+
+Description: The case "Add movie to list" allows you to add a movie from the application library to an already created playlist.
+
+The main flow of events:
+1. It's avalible when user choose film.
+2. Then user press on "Like".
+### 2.5 Play film
+##### Activity
+![Activity](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Activity/Play%20film.png)
+##### Secuence
+![Secuence](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Secuence%20diagrams/Play%20film%20secuence%20diagram.png)
+
+Description: The case "Play movie" allows you to start playing the movie.
+
+The main flow of events:
+1. It's availible when user choose film.
+2. Then user press on "Play".
