@@ -9,12 +9,12 @@
 | User | Person using the app |
 
 ### 2. Use cases
-#### 2.1 Add film to application's library
+#### 2.1 Add film to application's library.
 1. It's availible when user open "All movies" window.
 2. Then user press on "Add movie" and enter path of the film.
-3. If film isn't exist's user will should enter new path.
-4. Else if film has incorrect format user will be returned to "All movies" window.
-5. Else film will be added to application's library.
+3. The application checks if the file is alive. If there is no file along this path, then an alternate stream of A1 events is executed.
+4. The application checks if the file extension has correct format. If the extension does not right, then an alternate A2 stream is executed.
+5. The application adds a movie to your library.
 #### 2.2 Add film to the list
 1. It's avalible when user open "Movies list" window.
 2. Then user press on "Add Film".
