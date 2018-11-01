@@ -13,7 +13,7 @@
 ##### Activity
 ![Activity](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Activity/Add%20film%20to%20application's%20library.png)
 ##### Secuence
-![Secuence](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Secuence%20diagrams/Add%20film%20to%20application's%20library%20sequence%20diagram.png)
+![Secuence]https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Secuence%20diagrams/Add%20film%20to%20application's%20library%20secuence%20diagram.png)
 
 Description: The case "Add movie to application library" allows you to add a movie stored on the device to the application library.
 
@@ -36,7 +36,7 @@ Alternate Flow A2:
 ##### Activity
 ![Activity](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Activity/Add%20film%20to%20the%20list.png)
 ##### Secuence
-![Secuence](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Secuence%20diagrams/Add%20film%20to%20the%20list%20secuance%20diagram.png)
+![Secuence](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Secuence%20diagrams/Add%20film%20to%20application's%20library%20secuence%20diagram.png)
 
 Description: The case "Mark the movie as favorite" allows you to mark the movie as your favorite, for later access to it through the "Favorite" list.
 
