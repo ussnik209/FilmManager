@@ -10,6 +10,9 @@
 
 ### 2. Use cases
 #### 2.1 Add film to application's library.
+![2.1 Add film to application's library](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Activity/Add%20film%20to%20application's%20library.png)
+![2.1 Add film to application's library](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Secuence%20diagrams/Add%20film%20to%20application's%20library%20sequence%20diagram.png)
+
 Description: The case "Add movie to application library" allows you to add a movie stored on the device to the application library.
 
 The main flow of events:
@@ -26,37 +29,42 @@ Alternate Event Flow A1:
 Alternate Flow A2:
 1. Displays an error message.
 2. Go to step 6 of the main flow of events.
-(https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Activity/Add%20film%20to%20application's%20library.png)
-(https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Secuence%20diagrams/Add%20film%20to%20application's%20library%20sequence%20diagram.png)
+
 #### 2.2 Add film to the list
+![2.2 Add film to the list](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Activity/Add%20film%20to%20the%20list.png)
+![2.2 Add film to the list](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Secuence%20diagrams/Add%20film%20to%20the%20list%20secuance%20diagram.png)
+
 Description: The case "Mark the movie as favorite" allows you to mark the movie as your favorite, for later access to it through the "Favorite" list.
 
 The main flow of events:
 1. It's avalible when user open "Movies list" window.
 2. Then user press on "Add Film".
 3. User choose film to add.
-(https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Activity/Add%20film%20to%20the%20list.png)
-(https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Secuence%20diagrams/Add%20film%20to%20the%20list%20secuance%20diagram.png)
 #### 2.3 Create list
+![2.3 Create list](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Activity/Create%20list.png)
+![2.3 Create list](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Secuence%20diagrams/Create%20list%20sequence%20diagam.png)
+
 Description: The case "Create Playlist" allows you to create a new list of movies.
 
 The main flow of events:
 1. It's avalible when user open "Movies list" window.
 2. Then user should press on "Create list".
 3. User will write name of list and choose films to add.
-(https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Activity/Create%20list.png)
-(https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Secuence%20diagrams/Create%20list%20sequence%20diagam.png)
 #### 2.4 Mark film as favorite
+![2.4 Mark film as favorite](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Activity/Mark%20film%20as%20favorite.png)
+![2.4 Mark film as favorite](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Secuence%20diagrams/Mark%20film%20as%20favorite%20sequence%20diagram.png)
+
 Description: The case "Add movie to list" allows you to add a movie from the application library to an already created playlist.
 
 The main flow of events:
 1. It's avalible when user choose film.
 2. Then user press on "Like".
-(https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Activity/Mark%20film%20as%20favorite.png)
-(https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Secuence%20diagrams/Mark%20film%20as%20favorite%20sequence%20diagram.png)
 ### 2.5 Play film
+![2.5 Play film](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Activity/Play%20film.png)
+![2.5 Play film](https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Secuence%20diagrams/Play%20film%20secuence%20diagram.png)
+
+Description: The case "Play movie" allows you to start playing the movie.
+
 The main flow of events:
 1. It's availible when user choose film.
 2. Then user press on "Play".
-(https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Activity/Play%20film.png)
-(https://github.com/ussnik209/FilmManager/blob/master/Diagrams/Secuence%20diagrams/Play%20film%20secuence%20diagram.png)
