@@ -1,3 +1,10 @@
+/**
+ * Bt Nikita Us, 2018
+ */
+
+
+
+
 package sample;
 
 import javafx.application.Application;
