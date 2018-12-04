@@ -1,10 +1,16 @@
 package sample;
 
+import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.stage.Stage;
 
 public class AllMoviesController {
 
@@ -21,7 +27,7 @@ public class AllMoviesController {
     private Button nextButton;
 
     @FXML
-    private Button playlistButton;
+    private Button playlistsButton;
 
     @FXML
     private Label allMovies3Label;
@@ -48,7 +54,80 @@ public class AllMoviesController {
     private Button allMoviesButton;
 
     @FXML
-    void initialize() {
+    private Button saveButton;
 
+    private int page = 0;
+
+    @FXML
+    void initialize() {
+        for( int i = 4*page; i < page*4 + 4;) {
+            allMovies1Label.setText(AllMovies.getFilmName(i++));
+            allMovies2Label.setText(AllMovies.getFilmName(i++));
+            allMovies3Label.setText(AllMovies.getFilmName(i++));
+            allMovies4Label.setText(AllMovies.getFilmName(i++));
+        }
+        homeButton.setOnAction(event -> {
+            try {
+                Stage stageTheButtonBelongs = (Stage) homeButton.getScene().getWindow();
+                Parent root = FXMLLoader.load(getClass().getResource("Sample.fxml"));
+                stageTheButtonBelongs.setTitle("Film Manager");
+                stageTheButtonBelongs.setScene(new Scene(root, 508, 323));
+                stageTheButtonBelongs.show();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
+
+        recentlyViewedButton.setOnAction(event -> {
+            try {
+                Stage stageTheButtonBelongs = (Stage) recentlyViewedButton.getScene().getWindow();
+                Parent root = FXMLLoader.load(getClass().getResource("RecentlyViewed.fxml"));
+                stageTheButtonBelongs.setTitle("Film Manager");
+                stageTheButtonBelongs.setScene(new Scene(root, 508, 323));
+                stageTheButtonBelongs.show();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
+
+        favoriteButton.setOnAction(event -> {
+            try {
+                Stage stageTheButtonBelongs = (Stage) favoriteButton.getScene().getWindow();
+                Parent root = FXMLLoader.load(getClass().getResource("Favorite.fxml"));
+                stageTheButtonBelongs.setTitle("Film Manager");
+                stageTheButtonBelongs.setScene(new Scene(root, 508, 323));
+                stageTheButtonBelongs.show();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
+
+        playlistsButton.setOnAction(event -> {
+            try {
+                Stage stageTheButtonBelongs = (Stage) playlistsButton.getScene().getWindow();
+                Parent root = FXMLLoader.load(getClass().getResource("Playlists.fxml"));
+                stageTheButtonBelongs.setTitle("Film Manager");
+                stageTheButtonBelongs.setScene(new Scene(root, 508, 323));
+                stageTheButtonBelongs.show();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
+
+        addMovieButton.setOnAction( event -> {
+            try {
+                Stage addMovieStage = new Stage();
+                Parent root = FXMLLoader.load(getClass().getResource("AddToLibrary.fxml"));
+                addMovieStage.setTitle("Film Manager");
+                addMovieStage.setScene(new Scene(root, 373, 166));
+                addMovieStage.show();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
+
+        saveButton.setOnAction(event -> {
+            DataBase.save();
+        });
     }
 }

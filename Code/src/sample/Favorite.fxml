@@ -27,7 +27,7 @@
                 <Button fx:id="homeButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Home" />
                 <Button fx:id="recentlyViewedButton" layoutX="84.0" layoutY="14.0" mnemonicParsing="false" text="Recently viewed" />
                 <Button fx:id="favoriteButton" layoutX="210.0" layoutY="14.0" mnemonicParsing="false" text="Favorite" />
-                <Button fx:id="playlistButton" layoutX="297.0" layoutY="14.0" mnemonicParsing="false" text="Playlist" />
+                <Button fx:id="playlistsButton" layoutX="297.0" layoutY="14.0" mnemonicParsing="false" text="Playlists" />
                 <Button fx:id="allMoviesButton" layoutX="372.0" layoutY="14.0" mnemonicParsing="false" text="All movies" />
                 <GridPane layoutX="50.0" layoutY="94.0" prefHeight="195.0" prefWidth="159.0">
                     <columnConstraints>

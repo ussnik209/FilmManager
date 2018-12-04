@@ -20,7 +20,7 @@ public class RecentlyViewedController {
     private URL location;
 
     @FXML
-    private Button playlistButton;
+    private Button playlistsButton;
 
     @FXML
     private Label viewedTime3Label;
@@ -75,5 +75,40 @@ public class RecentlyViewedController {
                }
        });
 
+        favoriteButton.setOnAction(event -> {
+            try {
+                Stage stageTheButtonBelongs = (Stage) favoriteButton.getScene().getWindow();
+                Parent root = FXMLLoader.load(getClass().getResource("Favorite.fxml"));
+                stageTheButtonBelongs.setTitle("Film Manager");
+                stageTheButtonBelongs.setScene(new Scene(root, 508, 323));
+                stageTheButtonBelongs.show();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
+
+        playlistsButton.setOnAction(event -> {
+            try {
+                Stage stageTheButtonBelongs = (Stage) playlistsButton.getScene().getWindow();
+                Parent root = FXMLLoader.load(getClass().getResource("Playlists.fxml"));
+                stageTheButtonBelongs.setTitle("Film Manager");
+                stageTheButtonBelongs.setScene(new Scene(root, 508, 323));
+                stageTheButtonBelongs.show();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
+
+        allMoviesButton.setOnAction(event -> {
+            try {
+                Stage stageTheButtonBelongs = (Stage) allMoviesButton.getScene().getWindow();
+                Parent root = FXMLLoader.load(getClass().getResource("AllMovies.fxml"));
+                stageTheButtonBelongs.setTitle("Film Manager");
+                stageTheButtonBelongs.setScene(new Scene(root, 508, 323));
+                stageTheButtonBelongs.show();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
     }
 }
