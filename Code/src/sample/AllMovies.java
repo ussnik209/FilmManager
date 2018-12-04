@@ -71,4 +71,14 @@ public class AllMovies {
         }
         return filmList.get(i).getName();
     }
+
+    public static String getFilmPath(int i) {
+        if(filmList == null){
+            return "Empty";
+        }
+        if(i >= filmList.size()){
+            return "Empty";
+        }
+        return filmList.get(i).getPath();
+    }
 }

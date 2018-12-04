@@ -20,9 +20,9 @@ public class DataBase {
                 }
                 String sBuf = new String(buf);
                 do {
-                    String path = sBuf.substring(sBuf.indexOf('\r') + 2, sBuf.indexOf(' ') - 1);
+                    String path = sBuf.substring(sBuf.indexOf('\r') + 2, sBuf.indexOf(' '));
                     sBuf = sBuf.substring(sBuf.indexOf(' '), sBuf.length());
-                    String name = sBuf.substring(sBuf.indexOf(' ') + 1, sBuf.indexOf('\r') - 1);
+                    String name = sBuf.substring(sBuf.indexOf(' ') + 1, sBuf.indexOf('\r'));
                     sBuf = sBuf.substring(sBuf.indexOf('\r'), sBuf.length() - 1);
                     if (!AllMovies.isCreated()) {
                         new AllMovies(path, name);

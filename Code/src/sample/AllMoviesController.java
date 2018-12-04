@@ -1,5 +1,7 @@
 package sample;
 
+import java.awt.*;
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -56,6 +58,18 @@ public class AllMoviesController {
     @FXML
     private Button saveButton;
 
+    @FXML
+    private Button open1Button;
+
+    @FXML
+    private Button open2Button;
+
+    @FXML
+    private Button open3Button;
+
+    @FXML
+    private Button open4Button;
+
     private int page = 0;
 
     @FXML
@@ -66,6 +80,75 @@ public class AllMoviesController {
             allMovies3Label.setText(AllMovies.getFilmName(i++));
             allMovies4Label.setText(AllMovies.getFilmName(i++));
         }
+
+        open1Button.setOnAction(event -> {
+            String path;
+            Film film = AllMovies.findFilm(allMovies1Label.getText());
+            if(film != null) {
+                path = film.getPath();
+                try {
+                    File f = new File(path);
+                    if (f.isFile()) {
+                        Desktop dt = Desktop.getDesktop();
+                        dt.open(f);
+                    }
+                } catch (Exception e) {
+                    System.out.println(e.getMessage());
+                }
+            }
+        });
+
+        open2Button.setOnAction(event -> {
+            String path;
+            Film film = AllMovies.findFilm(allMovies2Label.getText());
+            if(film != null) {
+                path = film.getPath();
+                try {
+                    File f = new File(path);
+                    if (f.isFile()) {
+                        Desktop dt = Desktop.getDesktop();
+                        dt.open(f);
+                    }
+                } catch (Exception e) {
+                    System.out.println(e.getMessage());
+                }
+            }
+        });
+
+        open3Button.setOnAction(event -> {
+            String path;
+            Film film = AllMovies.findFilm(allMovies3Label.getText());
+            if(film != null) {
+                path = film.getPath();
+                try {
+                    File f = new File(path);
+                    if (f.isFile()) {
+                        Desktop dt = Desktop.getDesktop();
+                        dt.open(f);
+                    }
+                } catch (Exception e) {
+                    System.out.println(e.getMessage());
+                }
+            }
+        });
+
+        open4Button.setOnAction(event -> {
+            String path;
+            Film film = AllMovies.findFilm(allMovies4Label.getText());
+            if(film != null) {
+                path = film.getPath();
+                try {
+                    File f = new File(path);
+                    if (f.isFile()) {
+                        Desktop dt = Desktop.getDesktop();
+                        dt.open(f);
+                    }
+                } catch (Exception e) {
+                    System.out.println(e.getMessage());
+                }
+            }
+        });
+
         homeButton.setOnAction(event -> {
             try {
                 Stage stageTheButtonBelongs = (Stage) homeButton.getScene().getWindow();

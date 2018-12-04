@@ -45,10 +45,10 @@
                         <Label fx:id="allMovies2Label" text="Empty" GridPane.rowIndex="1" />
                         <Label fx:id="allMovies3Label" text="Empty" GridPane.rowIndex="2" />
                         <Label fx:id="allMovies4Label" text="Empty" GridPane.rowIndex="3" />
-                  <Button mnemonicParsing="false" text="Open" GridPane.columnIndex="1" />
-                  <Button mnemonicParsing="false" text="Open" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                  <Button mnemonicParsing="false" text="Open" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                  <Button mnemonicParsing="false" text="Open" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Button fx:id="open1Button" mnemonicParsing="false" text="Open" GridPane.columnIndex="1" />
+                  <Button fx:id="open2Button" mnemonicParsing="false" text="Open" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Button fx:id="open3Button" mnemonicParsing="false" text="Open" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Button fx:id="open4Button" mnemonicParsing="false" text="Open" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                     </children>
                 </GridPane>
                 <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
