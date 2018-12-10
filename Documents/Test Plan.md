@@ -10,7 +10,7 @@
     
 4.  [Features to be tested](https://github.com/ussnik209/FilmManager/blob/master/Documents/Test%20Plan.md#4-features-to-be-tested)
 
-5.  [Test Approach]()
+5.  [Test Approach](https://github.com/ussnik209/FilmManager/blob/master/Documents/Test%20Plan.md#5-test-approach)
 
 6.  [Pass / Fail Criteria]()
     
