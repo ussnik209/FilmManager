@@ -12,7 +12,7 @@
 
 5.  [Test Approach](https://github.com/ussnik209/FilmManager/blob/master/Documents/Test%20Plan.md#5-test-approach)
 
-6.  [Pass / Fail Criteria]()
+6.  [Pass / Fail Criteria](https://github.com/ussnik209/FilmManager/blob/master/Documents/Test%20Plan.md#6-pass--fail-criteria)
     
 7.  [Conclusion]()
     
