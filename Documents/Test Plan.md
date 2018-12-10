@@ -1,4 +1,4 @@
-# Test plan
+# Test Plan
 
 ### Content
 
@@ -39,6 +39,26 @@ Risks when using the application:
 -   No harddisk's space to store application's data.
 
 ## 4. Features to be tested
+
+### Tested Functional Requirements
+
+#### 1. Add movie to the aplication's library
+
+#### 2. Add movie to the list of desired
+
+#### 3. Add movie to the list of viewed
+
+#### 4. Add movie to the list of favorite
+
+#### 5. Create custom list
+
+#### 6. Add movie to the custom list
+
+### Tested Non-Functional Requirements
+
+#### 7. Display information about the film
+
+#### 8. The application must respond to any user action
 
 
 #### Tested features of desktop applications:
