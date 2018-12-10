@@ -6,7 +6,7 @@
     
 2.  [Test Items](https://github.com/ussnik209/FilmManager/blob/master/Documents/Test%20Plan.md#2-test-items)
     
-3.  [Risk Issues]()
+3.  [Risk Issues](https://github.com/ussnik209/FilmManager/blob/master/Documents/Test%20Plan.md#3-risk-issues)
     
 4.  [Features to be tested]()
 
