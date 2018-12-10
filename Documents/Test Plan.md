@@ -14,7 +14,7 @@
 
 6.  [Pass / Fail Criteria](https://github.com/ussnik209/FilmManager/blob/master/Documents/Test%20Plan.md#6-pass--fail-criteria)
     
-7.  [Conclusion]()
+7.  [Conclusion](https://github.com/ussnik209/FilmManager/blob/master/Documents/Test%20Plan.md#6-pass--fail-criteria)
     
 
 ## 1. Introduction
