@@ -56,9 +56,9 @@ Risks when using the application:
 
 ### Tested Non-Functional Requirements
 
-#### 7. Display information about the film
+#### 1. Display information about the film
 
-#### 8. The application must respond to any user action
+#### 2. The application must respond to any user action
 
 
 #### Tested features of desktop applications:
