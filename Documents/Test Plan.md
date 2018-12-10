@@ -4,7 +4,7 @@
 
 1.  [Introduction](https://github.com/ussnik209/FilmManager/blob/master/Documents/Test%20Plan.md#1-introduction)
     
-2.  [Test Items]()
+2.  [Test Items](https://github.com/ussnik209/FilmManager/blob/master/Documents/Test%20Plan.md#2-test-items)
     
 3.  [Risk Issues]()
     
