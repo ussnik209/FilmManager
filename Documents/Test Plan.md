@@ -42,23 +42,23 @@ Risks when using the application:
 
 ### Tested Functional Requirements
 
-#### 1. Add movie to the aplication's library
+1. Add movie to the aplication's library
 
-#### 2. Add movie to the list of desired
+2. Add movie to the list of desired
 
-#### 3. Add movie to the list of viewed
+3. Add movie to the list of viewed
 
-#### 4. Add movie to the list of favorite
+4. Add movie to the list of favorite
 
-#### 5. Create custom list
+5. Create custom list
 
-#### 6. Add movie to the custom list
+6. Add movie to the custom list
 
 ### Tested Non-Functional Requirements
 
-#### 1. Display information about the film
+1. Display information about the film
 
-#### 2. The application must respond to any user action
+2. The application must respond to any user action
 
 
 #### Tested features of desktop applications:
