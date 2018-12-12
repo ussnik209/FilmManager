@@ -24,11 +24,11 @@ This document presents the test plan for the FilmManager application. Testing wi
 ## 2. Test Items
 The test object is a desktop application - FilmManager.
 Quality attributes:
-1.  ### Functional Suitability
+1.  ### Functionality Suitability
 
 2.  ### Usability
     
-3. ### Protection from user error
+3. ### User's error protection
 
 
 ## 3. Risk Issues
