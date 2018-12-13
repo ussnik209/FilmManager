@@ -54,6 +54,8 @@ Risks when using the application:
 
 6. Add movie to the custom list
 
+7. Run movie
+
 ### Tested Non-Functional Requirements
 
 1. Information about the film should be readable
