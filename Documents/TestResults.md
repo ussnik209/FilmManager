@@ -13,5 +13,5 @@
 | 8 | Add movie to the custom list | Press "Playlist" screen's button "Add movie", in the window that appeared choose movie to add | Application displays movie in apropriated custom list |  |  |
 | 9 | Run movie with title | Press "All movies" screen's button "Open" near field with title | Application opens new window with movie |  |  |
 | 10 | Run movie without title | Press "All movies" screen's button "Open" near field without title | Application alerts user that movie is missing |  |  |
-| 11 | Information about the film should be readable | Open home screen | Application displays home screen with lists of readable titles of movies |  |  |
+| 11 | Information about the film should be readable | Open "All movies" screen | Application displays "All movies" screen with lists of readable titles of movies |  |  |
 | 12 | The application must respond to any user action | Press all buttons on all screens | Application responds to any pressing |  |  | 
