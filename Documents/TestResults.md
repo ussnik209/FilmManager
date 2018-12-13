@@ -15,3 +15,7 @@
 | 10 | Run movie without title | Press "All movies" screen's button "Open" near field without title | Application alerts user that movie is missing |  |  |
 | 11 | Information about the film should be readable | Open "All movies" screen | Application displays "All movies" screen with lists of readable titles of movies |  |  |
 | 12 | The application must respond to any user action | Press all buttons on all screens | Application responds to any pressing |  |  | 
+| 13 | The application works the same way with and without the Internet | Complete full testing with and without the Internet | The system works equally with and without the Internet |  |  |
+| 14 | The application window can be full screen and partially | Сhange the size of window | Graphical user interface is correctly displayed |  |  |
+| 15 | The application does not change the functionality after use | After testing, exit the application. Repeat these steps several times | The application does not change the functionality |  |  |
+| 16 | The application may be deleted | Delete application from computer | The application is completely absent on the computer |  |  |
