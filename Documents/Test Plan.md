@@ -74,7 +74,7 @@ Risks when using the application:
 The application will be tested manually
 ## 6. Pass / Fail Criteria
 
-Results of testing are represented in [Test result]()
+Results of testing are represented in [Test result](https://github.com/ussnik209/FilmManager/blob/master/Documents/TestResults.md)
 
 ## 7. Conclusion
 
