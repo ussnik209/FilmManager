@@ -56,7 +56,7 @@ Risks when using the application:
 
 ### Tested Non-Functional Requirements
 
-1. Display information about the film
+1. Display information about the film readable
 
 2. The application must respond to any user action
 
